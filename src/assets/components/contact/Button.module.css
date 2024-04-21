@@ -1,0 +1,37 @@
+.solid_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:white;
+    min-width: 220px;
+    height: 20px;
+    padding: 20px 12px;
+    border-radius: 8px;
+    gap: 6px;
+    font-weight: 500;
+}
+
+.solid_button:hover{
+    cursor: pointer;
+}
+
+
+.outline_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    width: 532px;
+    height: 20px;
+    padding: 14px 10px;
+    border-radius: 8px;
+    gap: 6px;
+    font-weight: 500;
+    border: 2px solid black;
+}
+
+.outline_button:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,156 @@
+.githubProfile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    padding-top: 40%;
+
+  }
+  
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr ; /* Adjusted widths for the first line */
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  
+  
+  
+  .box {
+    background: linear-gradient(to bottom left, black, rgb(161, 160, 160));
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    height: 100%;
+  }
+  
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .gridItem {
+    padding: 10px;
+    margin-top: 15%;
+  }
+
+  .gridItem_button{
+    background-color: #02B2AF;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 8%;
+  
+  }
+  
+  .stars {
+    display: flex;
+    align-items: center;
+  }
+  
+  .repoItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .barGraph {
+    list-style-type: none;
+    padding: 0;
+    height: 20px;
+  }
+  
+  .barchart{
+    color: white;
+  }
+  .barGraph li {
+    margin-bottom: 10px;
+  }
+  
+  .language {
+    display: inline;
+    width: 120px;
+    font-weight: bold;
+  }
+  
+  .barContainer {
+    background-color: #f0f0f0;
+    height: 12px;
+    border-radius: 6px;
+  }
+  
+  .bar {
+    background-color: #007bff; 
+    height: 100%;
+    border-radius: 6px;
+    transition: width 0.5s ease; 
+  }
+  
+  .percentage {
+    margin-left: 8px;
+    font-weight: bold;
+    color: white; 
+  }
+  
+  
+  .followers, .following{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8%;
+  }
+ 
+  .followers_following{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 15%;
+  }
+
+  .profileCard h2{
+    font-size: 32px;
+    font-weight: 400;
+    
+
+  }
+
+  .profileCard{
+    
+    text-align: center;
+  }
+
+  .profile_image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .repoTable {
+    width: 100%;
+    border-collapse: collapse;
+    padding-top: 2%;
+  }
+  
+  .repoTable th,
+  .repoTable td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .repoTable th {
+    background-color:#02B2AF;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .repoTable tr:hover {
+    background-color: #f2f2f2;
+    color: #000000;
+  }
+  

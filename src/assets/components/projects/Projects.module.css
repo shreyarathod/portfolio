@@ -1,0 +1,26 @@
+.projects_section{
+    height: 110vh;
+    background-color:black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.cards_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 70%;
+    text-align: left;
+}
+
+.heading{
+    font-size: 64px;
+    font-weight: 600;
+    color: white;
+}
