@@ -1,3 +1,5 @@
+$image1:url("/src/assets/images/education1.jpg");
+
 .education_section{
     height: 120vh;
     background-color: black;
@@ -152,19 +154,19 @@
 }
 
 .image1{
-  background-image: url("../src/assets/images/education1.jpg");
+  background-image: $image1;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .image2{
-  background-image: url("../src/assets/images/education2.jpg");
+  background-image: url(image2);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .image3{
-  background-image: url("../src/assets/images/education3.jpg");
+  background-image: url(image3);
   background-repeat: no-repeat;
   background-size: cover;
 }

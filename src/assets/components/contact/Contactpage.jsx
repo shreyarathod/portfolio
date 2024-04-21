@@ -4,12 +4,12 @@ import { MdMessage } from "react-icons/md";
 import { MdCall } from "react-icons/md";
 import { IoMdMail } from "react-icons/io";
 import Button from "./Button";
-
+import contact from "/src/assets/images/contact-removebg2.png";
 function Contactpage() {
   return (
     <div className={`container ${styles.contact_section}`}>
       <div className={styles.contact_image}>
-        <img src="../src/assets/images/contact-removebg2.png" alt="image"></img>
+        <img src={contact} alt="image"></img>
       </div>
       <div className={`container ${styles.contact_form}`}>
         <form>

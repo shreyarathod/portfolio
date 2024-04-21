@@ -1,5 +1,8 @@
 import React from "react";
-import "./Education.css";
+import "./Education.scss";
+import image1 from "/src/assets/images/education1.jpg";
+import image2 from "/src/assets/images/education2.jpg";
+import image3 from "/src/assets/images/education3.jpg";
 
 function Education() {
   return (
@@ -25,7 +28,7 @@ function Education() {
           <div className=""></div>
         </div>
 
-        <div className="tl-item image1">
+        <div className="tl-item ">
           <div className="tl-bg"></div>
 
           <div className="tl-year">

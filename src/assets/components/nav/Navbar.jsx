@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import logo from "/src/assets/images/logo.png";
 
 import "./Navbar.css";
 import AOS from "aos";
@@ -32,7 +33,7 @@ const Navbar = () => {
           duration={500}
           className="logo"
         >
-          <img src="../src/assets/images/logo.png" alt="logo" />
+          <img src={logo} alt="logo" />
         </Link>
         <div className="hamburger" onClick={handleClick}>
           {click ? (

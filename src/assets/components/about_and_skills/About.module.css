@@ -1,3 +1,4 @@
+
 .about_section{
    
     height: 200vh;
@@ -47,7 +48,7 @@
 }
 
 .image{
-    background: url("../src/assets/images/profile.jpg");
+    background: url({profile});
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -57,6 +58,7 @@
     width: 450px;
     height: 450px;
     animation: profile_animate 8s ease-in-out infinite 1s;
+    
 }
 
 @keyframes profile_animate{

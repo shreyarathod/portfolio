@@ -3,6 +3,7 @@ import styles from "./Home.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import laptop from "/src/assets/images/laptop_final2.png";
 
 function Home() {
   useEffect(() => {
@@ -27,10 +28,7 @@ function Home() {
           </p>
         </div>
         <div className={styles.image_section} data-aos="fade-down">
-          <img
-            src="../src/assets/images/laptop_final2.png"
-            alt="laptop-image"
-          ></img>
+          <img src={laptop} alt="laptop-image"></img>
         </div>
         <div
           className={`${styles.right_text} ${styles.text_container}`}

@@ -1,6 +1,12 @@
 import React from "react";
 import styles from "./Projects.module.css";
 import Projectcard from "../Projectcards/Projectcard";
+import Card1 from "/src/assets/images/card1.jpg";
+import Card2 from "/src/assets/images/card2.png";
+import Card3 from "/src/assets/images/card3.jpg";
+import Card4 from "/src/assets/images/card4.jpg";
+import Card5 from "/src/assets/images/card5.jpg";
+import Card6 from "/src/assets/images/card6.png";
 
 function Projects() {
   return (
@@ -12,40 +18,40 @@ function Projects() {
         <Projectcard
           type={"Machine Learning"}
           title={"Malaria Detection Using Blood Cell Images"}
-          image={"../src/assets/images/card1.jpg"}
+          image={Card1}
           link={"https://github.com/shreyarathod/machine-learning"}
         ></Projectcard>
 
         <Projectcard
           type={"Machine Learning"}
           title={"Indian Sign Language Interpreter(CNN Model)"}
-          image={"../src/assets/images/card2.png"}
+          image={Card2}
           link={"https://github.com/shreyarathod/ISL-model"}
         ></Projectcard>
 
         <Projectcard
           type={"Machine Learning"}
           title={"Linear Regression Model for Second Hand Car Price Prediction"}
-          image={"../src/assets/images/card3.jpg"}
+          image={Card3}
           link={"https://github.com/shreyarathod/machine-learning"}
         ></Projectcard>
         <Projectcard
           type={"Web Development"}
           title={"Indian Sign Language Interpreter(FrontEnd Website)"}
-          image={"../src/assets/images/card4.jpg"}
+          image={Card4}
           link={"https://isl-frontend.netlify.app/"}
         ></Projectcard>
 
         <Projectcard
           type={"Web Development"}
           title={"Weather Generator using API"}
-          image={"../src/assets/images/card5.jpg"}
+          image={Card5}
           link={"https://shreyarathod.github.io/Weather-Generator/"}
         ></Projectcard>
         <Projectcard
           type={"Web Development"}
           title={"Amazon CLone (FrontEnd)"}
-          image={"../src/assets/images/card6.png"}
+          image={Card6}
           link={"https://shreyarathod.github.io/Amazon-Clone/"}
         ></Projectcard>
       </div>

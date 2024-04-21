@@ -4,6 +4,7 @@ import Skillcards from "../skillcards/Skillcards";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import profile from "/src/assets/images/profile.jpg";
 
 function About() {
   useEffect(() => {
@@ -50,7 +51,9 @@ function About() {
         </div>
 
         <div className={styles.image_section} data-aos="zoom-in-up">
-          <div className={styles.image}></div>
+          <div>
+            <img src={profile} className={styles.image}></img>
+          </div>
         </div>
       </div>
       <div className={styles.bottom_section}>
